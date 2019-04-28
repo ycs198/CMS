@@ -1,0 +1,14 @@
+com\aco\demo\dao\AcoDetailsDao.class
+com\aco\demo\rest\AcoControllerRestImpl.class
+com\aco\demo\service\AcoServiceImpl.class
+com\aco\demo\rest\AcoControllerRestApi.class
+com\aco\demo\dao\AcoDetailsRepository.class
+com\aco\demo\DemoApplication.class
+com\aco\demo\domain\AcoAgreementDetails.class
+com\aco\demo\domain\AcoParticipant.class
+com\aco\demo\domain\AcoDetails.class
+com\aco\demo\dao\AcoParticipantDao.class
+com\aco\demo\dao\AcoAgreementDetailsDao.class
+com\aco\demo\service\AcoService.class
+com\aco\demo\dao\AcoParticipantsRepository.class
+com\aco\demo\dao\AcoAgreementDetailsRepository.class
