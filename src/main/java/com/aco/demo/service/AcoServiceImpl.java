@@ -29,7 +29,7 @@ public class AcoServiceImpl implements AcoService {
 
 	@Override
 	public boolean insertAcoParticipant(AcoParticipant acoParticipant) {
-		
+		acoParticipant.setTimestamp(new Date());
 		AcoParticipantDao acoParticipantDao = new AcoParticipantDao(acoParticipant);
 		if(acoParticipantsRepository.save(acoParticipantDao) != null) {
 			return true;
@@ -49,6 +49,7 @@ public class AcoServiceImpl implements AcoService {
 
 	@Override
 	public boolean insertByAcoAgreementDetails(AcoAgreementDetails acoAgreementDetails) {
+		acoAgreementDetails.setTimestamp(new Date());
 		AcoAgreementDetailsDao acoAgreementDetailsDao = new AcoAgreementDetailsDao(acoAgreementDetails);
 		if(acoAgreementDetailsRepository.save(acoAgreementDetailsDao) != null) {
 			return true;
